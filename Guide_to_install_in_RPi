@@ -1,0 +1,11 @@
+Install Ubuntu 22.04 using RPi Imager
+
+
+sudo apt update && sudo apt upgrade   //update OS
+
+sudo apt install openssh-server       //install openssh
+
+sudo apt install python3-lgpio        //Install GPIO
+
+
+ROS installation Guide https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html
