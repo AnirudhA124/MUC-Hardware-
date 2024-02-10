@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/encoder_reader/encoder_reader.egg-info
+writing ../../build/encoder_reader/encoder_reader.egg-info/PKG-INFO
+writing dependency_links to ../../build/encoder_reader/encoder_reader.egg-info/dependency_links.txt
+writing entry points to ../../build/encoder_reader/encoder_reader.egg-info/entry_points.txt
+writing requirements to ../../build/encoder_reader/encoder_reader.egg-info/requires.txt
+writing top-level names to ../../build/encoder_reader/encoder_reader.egg-info/top_level.txt
+writing manifest file '../../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'
+reading manifest file '../../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'
+writing manifest file '../../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pi/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/build
+creating /home/pi/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/build/lib
+creating /home/pi/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/build/lib/encoder_reader
+copying encoder_reader/encoder_reader_node.py -> /home/pi/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/build/lib/encoder_reader
+copying encoder_reader/__init__.py -> /home/pi/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/build/lib/encoder_reader
+running install
+running install_lib
+creating /home/pi/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages/encoder_reader
+copying /home/pi/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/build/lib/encoder_reader/encoder_reader_node.py -> /home/pi/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages/encoder_reader
+copying /home/pi/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/build/lib/encoder_reader/__init__.py -> /home/pi/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages/encoder_reader
+byte-compiling /home/pi/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages/encoder_reader/encoder_reader_node.py to encoder_reader_node.cpython-310.pyc
+byte-compiling /home/pi/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages/encoder_reader/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/pi/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/share/ament_index
+creating /home/pi/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/share/ament_index/resource_index
+creating /home/pi/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/share/ament_index/resource_index/packages
+copying resource/encoder_reader -> /home/pi/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/share/ament_index/resource_index/packages
+copying package.xml -> /home/pi/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/share/encoder_reader
+running install_egg_info
+Copying ../../build/encoder_reader/encoder_reader.egg-info to /home/pi/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages/encoder_reader-0.0.0-py3.10.egg-info
+running install_scripts
+Installing encoder_reader_node script to /home/pi/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/encoder_reader
+writing list of installed files to '/home/pi/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/install.log'

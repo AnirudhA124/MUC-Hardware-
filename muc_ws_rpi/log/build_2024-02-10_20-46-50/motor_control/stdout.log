@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/motor_control/motor_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/motor_control/motor_control.egg-info/dependency_links.txt
+writing entry points to ../../build/motor_control/motor_control.egg-info/entry_points.txt
+writing requirements to ../../build/motor_control/motor_control.egg-info/requires.txt
+writing top-level names to ../../build/motor_control/motor_control.egg-info/top_level.txt
+reading manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/motor_control/motor_control.egg-info to /home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing motor_control_node script to /home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/motor_control
+writing list of installed files to '/home/pi/MUC-Hardware-/muc_ws_rpi/build/motor_control/install.log'

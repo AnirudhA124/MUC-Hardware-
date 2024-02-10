@@ -1,0 +1,24 @@
+[4.538s] Invoking command in '/home/pi/MUC-Hardware-/muc_ws_rpi/src/motor_control': PYTHONPATH=/home/pi/MUC-Hardware-/muc_ws_rpi/build/motor_control/prefix_override:/home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/pi/MUC-Hardware-/muc_ws_rpi/build/motor_control/build install --record /home/pi/MUC-Hardware-/muc_ws_rpi/build/motor_control/install.log --single-version-externally-managed
+[6.026s] running egg_info
+[6.028s] writing ../../build/motor_control/motor_control.egg-info/PKG-INFO
+[6.029s] writing dependency_links to ../../build/motor_control/motor_control.egg-info/dependency_links.txt
+[6.030s] writing entry points to ../../build/motor_control/motor_control.egg-info/entry_points.txt
+[6.031s] writing requirements to ../../build/motor_control/motor_control.egg-info/requires.txt
+[6.032s] writing top-level names to ../../build/motor_control/motor_control.egg-info/top_level.txt
+[6.041s] reading manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[6.045s] writing manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[6.046s] running build
+[6.046s] running build_py
+[6.047s] copying motor_control/motor_control_node.py -> /home/pi/MUC-Hardware-/muc_ws_rpi/build/motor_control/build/lib/motor_control
+[6.048s] running install
+[6.049s] running install_lib
+[6.052s] copying /home/pi/MUC-Hardware-/muc_ws_rpi/build/motor_control/build/lib/motor_control/motor_control_node.py -> /home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages/motor_control
+[6.055s] byte-compiling /home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages/motor_control/motor_control_node.py to motor_control_node.cpython-310.pyc
+[6.059s] running install_data
+[6.062s] running install_egg_info
+[6.069s] removing '/home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info' (and everything under it)
+[6.070s] Copying ../../build/motor_control/motor_control.egg-info to /home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info
+[6.077s] running install_scripts
+[6.155s] Installing motor_control_node script to /home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/motor_control
+[6.157s] writing list of installed files to '/home/pi/MUC-Hardware-/muc_ws_rpi/build/motor_control/install.log'
+[6.291s] Invoked command in '/home/pi/MUC-Hardware-/muc_ws_rpi/src/motor_control' returned '0': PYTHONPATH=/home/pi/MUC-Hardware-/muc_ws_rpi/build/motor_control/prefix_override:/home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/pi/MUC-Hardware-/muc_ws_rpi/build/motor_control/build install --record /home/pi/MUC-Hardware-/muc_ws_rpi/build/motor_control/install.log --single-version-externally-managed

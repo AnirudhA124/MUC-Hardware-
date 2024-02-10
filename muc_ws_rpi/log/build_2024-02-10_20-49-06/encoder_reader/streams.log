@@ -1,0 +1,24 @@
+[5.766s] Invoking command in '/home/pi/MUC-Hardware-/muc_ws_rpi/src/encoder_reader': PYTHONPATH=/home/pi/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/prefix_override:/home/pi/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/encoder_reader build --build-base /home/pi/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/build install --record /home/pi/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/install.log --single-version-externally-managed
+[7.118s] running egg_info
+[7.121s] writing ../../build/encoder_reader/encoder_reader.egg-info/PKG-INFO
+[7.123s] writing dependency_links to ../../build/encoder_reader/encoder_reader.egg-info/dependency_links.txt
+[7.124s] writing entry points to ../../build/encoder_reader/encoder_reader.egg-info/entry_points.txt
+[7.125s] writing requirements to ../../build/encoder_reader/encoder_reader.egg-info/requires.txt
+[7.127s] writing top-level names to ../../build/encoder_reader/encoder_reader.egg-info/top_level.txt
+[7.135s] reading manifest file '../../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'
+[7.140s] writing manifest file '../../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'
+[7.141s] running build
+[7.141s] running build_py
+[7.142s] copying encoder_reader/encoder_reader_node.py -> /home/pi/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/build/lib/encoder_reader
+[7.144s] running install
+[7.145s] running install_lib
+[7.149s] copying /home/pi/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/build/lib/encoder_reader/encoder_reader_node.py -> /home/pi/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages/encoder_reader
+[7.156s] byte-compiling /home/pi/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages/encoder_reader/encoder_reader_node.py to encoder_reader_node.cpython-310.pyc
+[7.158s] running install_data
+[7.159s] running install_egg_info
+[7.166s] removing '/home/pi/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages/encoder_reader-0.0.0-py3.10.egg-info' (and everything under it)
+[7.168s] Copying ../../build/encoder_reader/encoder_reader.egg-info to /home/pi/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages/encoder_reader-0.0.0-py3.10.egg-info
+[7.174s] running install_scripts
+[7.263s] Installing encoder_reader_node script to /home/pi/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/encoder_reader
+[7.265s] writing list of installed files to '/home/pi/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/install.log'
+[7.468s] Invoked command in '/home/pi/MUC-Hardware-/muc_ws_rpi/src/encoder_reader' returned '0': PYTHONPATH=/home/pi/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/prefix_override:/home/pi/MUC-Hardware-/muc_ws_rpi/install/encoder_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/encoder_reader build --build-base /home/pi/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/build install --record /home/pi/MUC-Hardware-/muc_ws_rpi/build/encoder_reader/install.log --single-version-externally-managed

@@ -1,0 +1,3 @@
+[console_scripts]
+encoder_reader_node = encoder_reader.encoder_reader_node:main
+

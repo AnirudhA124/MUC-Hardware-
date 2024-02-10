@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.002202] (motor_control) JobQueued: {'identifier': 'motor_control', 'dependencies': OrderedDict()}
+[0.002713] (motor_control) JobStarted: {'identifier': 'motor_control'}
+[0.099157] (-) TimerEvent: {}
+[0.200001] (-) TimerEvent: {}
+[0.300689] (-) TimerEvent: {}
+[0.401357] (-) TimerEvent: {}
+[0.502012] (-) TimerEvent: {}
+[0.602733] (-) TimerEvent: {}
+[0.703355] (-) TimerEvent: {}
+[0.803987] (-) TimerEvent: {}
+[0.904605] (-) TimerEvent: {}
+[1.005226] (-) TimerEvent: {}
+[1.105892] (-) TimerEvent: {}
+[1.206555] (-) TimerEvent: {}
+[1.307284] (-) TimerEvent: {}
+[1.408099] (-) TimerEvent: {}
+[1.509131] (-) TimerEvent: {}
+[1.611463] (-) TimerEvent: {}
+[1.713110] (-) TimerEvent: {}
+[1.813921] (-) TimerEvent: {}
+[1.914556] (-) TimerEvent: {}
+[2.015187] (-) TimerEvent: {}
+[2.115792] (-) TimerEvent: {}
+[2.216417] (-) TimerEvent: {}
+[2.317042] (-) TimerEvent: {}
+[2.417649] (-) TimerEvent: {}
+[2.518295] (-) TimerEvent: {}
+[2.619044] (-) TimerEvent: {}
+[2.719810] (-) TimerEvent: {}
+[2.820443] (-) TimerEvent: {}
+[2.921156] (-) TimerEvent: {}
+[3.021953] (-) TimerEvent: {}
+[3.122802] (-) TimerEvent: {}
+[3.223638] (-) TimerEvent: {}
+[3.324786] (-) TimerEvent: {}
+[3.365666] (motor_control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_control', 'build', '--build-base', '/home/pi/MUC-Hardware-/muc_ws_rpi/build/motor_control/build', 'install', '--record', '/home/pi/MUC-Hardware-/muc_ws_rpi/build/motor_control/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/MUC-Hardware-/muc_ws_rpi/src/motor_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'pi', 'SSH_CLIENT': '192.168.182.197 47710 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/MUC-Hardware-/muc_ws_rpi/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/MUC-Hardware-/muc_ws_rpi/build/motor_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.182.197 47710 192.168.182.159 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/MUC-Hardware-/muc_ws_rpi/build/motor_control/prefix_override:/home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.424965] (-) TimerEvent: {}
+[3.525630] (-) TimerEvent: {}
+[3.626670] (-) TimerEvent: {}
+[3.727341] (-) TimerEvent: {}
+[3.827974] (-) TimerEvent: {}
+[3.928607] (-) TimerEvent: {}
+[4.029259] (-) TimerEvent: {}
+[4.129927] (-) TimerEvent: {}
+[4.230642] (-) TimerEvent: {}
+[4.331254] (-) TimerEvent: {}
+[4.431897] (-) TimerEvent: {}
+[4.479940] (motor_control) StdoutLine: {'line': b'running egg_info\n'}
+[4.481996] (motor_control) StdoutLine: {'line': b'creating ../../build/motor_control/motor_control.egg-info\n'}
+[4.482751] (motor_control) StdoutLine: {'line': b'writing ../../build/motor_control/motor_control.egg-info/PKG-INFO\n'}
+[4.483790] (motor_control) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_control/motor_control.egg-info/dependency_links.txt\n'}
+[4.484331] (motor_control) StdoutLine: {'line': b'writing entry points to ../../build/motor_control/motor_control.egg-info/entry_points.txt\n'}
+[4.484840] (motor_control) StdoutLine: {'line': b'writing requirements to ../../build/motor_control/motor_control.egg-info/requires.txt\n'}
+[4.485316] (motor_control) StdoutLine: {'line': b'writing top-level names to ../../build/motor_control/motor_control.egg-info/top_level.txt\n'}
+[4.486317] (motor_control) StdoutLine: {'line': b"writing manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'\n"}
+[4.493796] (motor_control) StdoutLine: {'line': b"reading manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'\n"}
+[4.496970] (motor_control) StdoutLine: {'line': b"writing manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'\n"}
+[4.497597] (motor_control) StdoutLine: {'line': b'running build\n'}
+[4.498052] (motor_control) StdoutLine: {'line': b'running build_py\n'}
+[4.498551] (motor_control) StdoutLine: {'line': b'creating /home/pi/MUC-Hardware-/muc_ws_rpi/build/motor_control/build\n'}
+[4.499069] (motor_control) StdoutLine: {'line': b'creating /home/pi/MUC-Hardware-/muc_ws_rpi/build/motor_control/build/lib\n'}
+[4.499607] (motor_control) StdoutLine: {'line': b'creating /home/pi/MUC-Hardware-/muc_ws_rpi/build/motor_control/build/lib/motor_control\n'}
+[4.499943] (motor_control) StdoutLine: {'line': b'copying motor_control/motor_control_node.py -> /home/pi/MUC-Hardware-/muc_ws_rpi/build/motor_control/build/lib/motor_control\n'}
+[4.500394] (motor_control) StdoutLine: {'line': b'copying motor_control/__init__.py -> /home/pi/MUC-Hardware-/muc_ws_rpi/build/motor_control/build/lib/motor_control\n'}
+[4.501015] (motor_control) StdoutLine: {'line': b'running install\n'}
+[4.502215] (motor_control) StdoutLine: {'line': b'running install_lib\n'}
+[4.505230] (motor_control) StdoutLine: {'line': b'creating /home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages/motor_control\n'}
+[4.505793] (motor_control) StdoutLine: {'line': b'copying /home/pi/MUC-Hardware-/muc_ws_rpi/build/motor_control/build/lib/motor_control/motor_control_node.py -> /home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages/motor_control\n'}
+[4.506494] (motor_control) StdoutLine: {'line': b'copying /home/pi/MUC-Hardware-/muc_ws_rpi/build/motor_control/build/lib/motor_control/__init__.py -> /home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages/motor_control\n'}
+[4.508889] (motor_control) StdoutLine: {'line': b'byte-compiling /home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages/motor_control/motor_control_node.py to motor_control_node.cpython-310.pyc\n'}
+[4.512414] (motor_control) StdoutLine: {'line': b'byte-compiling /home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages/motor_control/__init__.py to __init__.cpython-310.pyc\n'}
+[4.513391] (motor_control) StdoutLine: {'line': b'running install_data\n'}
+[4.515731] (motor_control) StdoutLine: {'line': b'creating /home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/share/ament_index\n'}
+[4.516351] (motor_control) StdoutLine: {'line': b'creating /home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/share/ament_index/resource_index\n'}
+[4.516797] (motor_control) StdoutLine: {'line': b'creating /home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/share/ament_index/resource_index/packages\n'}
+[4.517116] (motor_control) StdoutLine: {'line': b'copying resource/motor_control -> /home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/share/ament_index/resource_index/packages\n'}
+[4.517569] (motor_control) StdoutLine: {'line': b'copying package.xml -> /home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/share/motor_control\n'}
+[4.517973] (motor_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.524313] (motor_control) StdoutLine: {'line': b'Copying ../../build/motor_control/motor_control.egg-info to /home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info\n'}
+[4.529388] (motor_control) StdoutLine: {'line': b'running install_scripts\n'}
+[4.532046] (-) TimerEvent: {}
+[4.604455] (motor_control) StdoutLine: {'line': b'Installing motor_control_node script to /home/pi/MUC-Hardware-/muc_ws_rpi/install/motor_control/lib/motor_control\n'}
+[4.605877] (motor_control) StdoutLine: {'line': b"writing list of installed files to '/home/pi/MUC-Hardware-/muc_ws_rpi/build/motor_control/install.log'\n"}
+[4.632497] (-) TimerEvent: {}
+[4.733670] (motor_control) CommandEnded: {'returncode': 0}
+[4.735219] (-) TimerEvent: {}
+[4.836313] (-) TimerEvent: {}
+[4.937562] (-) TimerEvent: {}
+[4.986935] (motor_control) JobEnded: {'identifier': 'motor_control', 'rc': 0}
+[4.989774] (-) EventReactorShutdown: {}
