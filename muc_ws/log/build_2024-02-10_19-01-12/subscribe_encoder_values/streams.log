@@ -1,0 +1,21 @@
+[0.656s] Invoking command in '/home/anirudh/muc_ws/src/subscribe_encoder_values': PYTHONPATH=/home/anirudh/muc_ws/build/subscribe_encoder_values/prefix_override:/home/anirudh/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/subscribe_encoder_values build --build-base /home/anirudh/muc_ws/build/subscribe_encoder_values/build install --record /home/anirudh/muc_ws/build/subscribe_encoder_values/install.log --single-version-externally-managed
+[0.810s] running egg_info
+[0.811s] writing ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/PKG-INFO
+[0.811s] writing dependency_links to ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/dependency_links.txt
+[0.811s] writing entry points to ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/entry_points.txt
+[0.811s] writing requirements to ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/requires.txt
+[0.811s] writing top-level names to ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/top_level.txt
+[0.812s] reading manifest file '../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/SOURCES.txt'
+[0.813s] writing manifest file '../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/SOURCES.txt'
+[0.813s] running build
+[0.813s] running build_py
+[0.813s] running install
+[0.814s] running install_lib
+[0.814s] running install_data
+[0.814s] running install_egg_info
+[0.816s] removing '/home/anirudh/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages/subscribe_encoder_values-0.0.0-py3.10.egg-info' (and everything under it)
+[0.816s] Copying ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info to /home/anirudh/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages/subscribe_encoder_values-0.0.0-py3.10.egg-info
+[0.816s] running install_scripts
+[0.830s] Installing subscribe_encoder_values script to /home/anirudh/muc_ws/install/subscribe_encoder_values/lib/subscribe_encoder_values
+[0.830s] writing list of installed files to '/home/anirudh/muc_ws/build/subscribe_encoder_values/install.log'
+[0.847s] Invoked command in '/home/anirudh/muc_ws/src/subscribe_encoder_values' returned '0': PYTHONPATH=/home/anirudh/muc_ws/build/subscribe_encoder_values/prefix_override:/home/anirudh/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/subscribe_encoder_values build --build-base /home/anirudh/muc_ws/build/subscribe_encoder_values/build install --record /home/anirudh/muc_ws/build/subscribe_encoder_values/install.log --single-version-externally-managed

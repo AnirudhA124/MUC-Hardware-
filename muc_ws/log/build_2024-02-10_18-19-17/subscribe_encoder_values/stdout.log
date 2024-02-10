@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info
+writing ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/PKG-INFO
+writing dependency_links to ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/dependency_links.txt
+writing entry points to ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/entry_points.txt
+writing requirements to ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/requires.txt
+writing top-level names to ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/top_level.txt
+writing manifest file '../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/SOURCES.txt'
+reading manifest file '../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/SOURCES.txt'
+writing manifest file '../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/anirudh/muc_ws/build/subscribe_encoder_values/build
+creating /home/anirudh/muc_ws/build/subscribe_encoder_values/build/lib
+creating /home/anirudh/muc_ws/build/subscribe_encoder_values/build/lib/subscribe_encoder_values
+copying subscribe_encoder_values/__init__.py -> /home/anirudh/muc_ws/build/subscribe_encoder_values/build/lib/subscribe_encoder_values
+copying subscribe_encoder_values/subscribe_encde_values.py -> /home/anirudh/muc_ws/build/subscribe_encoder_values/build/lib/subscribe_encoder_values
+running install
+running install_lib
+creating /home/anirudh/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages/subscribe_encoder_values
+copying /home/anirudh/muc_ws/build/subscribe_encoder_values/build/lib/subscribe_encoder_values/__init__.py -> /home/anirudh/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages/subscribe_encoder_values
+copying /home/anirudh/muc_ws/build/subscribe_encoder_values/build/lib/subscribe_encoder_values/subscribe_encde_values.py -> /home/anirudh/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages/subscribe_encoder_values
+byte-compiling /home/anirudh/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages/subscribe_encoder_values/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/anirudh/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages/subscribe_encoder_values/subscribe_encde_values.py to subscribe_encde_values.cpython-310.pyc
+running install_data
+creating /home/anirudh/muc_ws/install/subscribe_encoder_values/share/ament_index
+creating /home/anirudh/muc_ws/install/subscribe_encoder_values/share/ament_index/resource_index
+creating /home/anirudh/muc_ws/install/subscribe_encoder_values/share/ament_index/resource_index/packages
+copying resource/subscribe_encoder_values -> /home/anirudh/muc_ws/install/subscribe_encoder_values/share/ament_index/resource_index/packages
+copying package.xml -> /home/anirudh/muc_ws/install/subscribe_encoder_values/share/subscribe_encoder_values
+running install_egg_info
+Copying ../../build/subscribe_encoder_values/subscribe_encoder_values.egg-info to /home/anirudh/muc_ws/install/subscribe_encoder_values/lib/python3.10/site-packages/subscribe_encoder_values-0.0.0-py3.10.egg-info
+running install_scripts
+Installing subscribe_encoder_values script to /home/anirudh/muc_ws/install/subscribe_encoder_values/lib/subscribe_encoder_values
+writing list of installed files to '/home/anirudh/muc_ws/build/subscribe_encoder_values/install.log'

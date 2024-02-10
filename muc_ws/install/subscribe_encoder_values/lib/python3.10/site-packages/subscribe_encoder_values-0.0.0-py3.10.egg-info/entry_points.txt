@@ -1,0 +1,3 @@
+[console_scripts]
+subscribe_encoder_values = subscribe_encoder_values.subscribe_encoder_values:main
+

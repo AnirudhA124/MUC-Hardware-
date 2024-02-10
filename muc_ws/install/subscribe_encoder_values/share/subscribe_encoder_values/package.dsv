@@ -1,0 +1,6 @@
+source;share/subscribe_encoder_values/hook/pythonpath.ps1
+source;share/subscribe_encoder_values/hook/pythonpath.dsv
+source;share/subscribe_encoder_values/hook/pythonpath.sh
+source;share/subscribe_encoder_values/hook/ament_prefix_path.ps1
+source;share/subscribe_encoder_values/hook/ament_prefix_path.dsv
+source;share/subscribe_encoder_values/hook/ament_prefix_path.sh

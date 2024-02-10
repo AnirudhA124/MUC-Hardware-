@@ -1,0 +1,3 @@
+[console_scripts]
+publish_pwm_values = publish_pwm_values.publish_pwm_values:main
+
