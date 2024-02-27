@@ -42,18 +42,22 @@ def publish_encoder_values(node):
 
 def DC_Motor_Encoder1(channel):
     global Count_pulses1
+    a = GPIO.input(Encoder1_output_A)
     b = GPIO.input(Encoder1_output_B)
-    if b > 0:
+
+    if a == 1 and b == 0:
         Count_pulses1 += 1
-    else:
+    elif a == 0 and b == 1:
         Count_pulses1 -= 1
 
 def DC_Motor_Encoder2(channel):
     global Count_pulses2
-    c = GPIO.input(Encoder2_output_B)
-    if c > 0:
+    a = GPIO.input(Encoder2_output_A)
+    b = GPIO.input(Encoder2_output_B)
+
+    if a == 1 and b == 0:
         Count_pulses2 += 1
-    else:
+    elif a == 0 and b == 1:
         Count_pulses2 -= 1
 
 def main():
