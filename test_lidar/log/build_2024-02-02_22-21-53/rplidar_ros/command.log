@@ -1,0 +1,2 @@
+Invoking command in '/home/anirudh/test_lidar/build/rplidar_ros': /usr/bin/cmake /home/anirudh/test_lidar/src/rplidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/anirudh/test_lidar/install/rplidar_ros
+Invoked command in '/home/anirudh/test_lidar/build/rplidar_ros' returned '1': /usr/bin/cmake /home/anirudh/test_lidar/src/rplidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/anirudh/test_lidar/install/rplidar_ros

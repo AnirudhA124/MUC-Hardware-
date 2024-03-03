@@ -1,0 +1,4 @@
+Invoking command in '/home/anirudh/test_lidar/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anirudh/test_lidar/build/rplidar_ros -- -j16 -l16
+Invoked command in '/home/anirudh/test_lidar/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anirudh/test_lidar/build/rplidar_ros -- -j16 -l16
+Invoking command in '/home/anirudh/test_lidar/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anirudh/test_lidar/build/rplidar_ros
+Invoked command in '/home/anirudh/test_lidar/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anirudh/test_lidar/build/rplidar_ros
