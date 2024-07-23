@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anirudh/test_lidar/src/rplidar_ros2
+CMAKE_SOURCE_DIR = /home/proton/ros2_ws/src/rplidar_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anirudh/test_lidar/build/rplidar_ros
+CMAKE_BINARY_DIR = /home/proton/ros2_ws/build/rplidar_ros
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/anirudh/test_lidar/build/rplidar_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anirudh/test_lidar/src/rplidar_ros2 /home/anirudh/test_lidar/src/rplidar_ros2 /home/anirudh/test_lidar/build/rplidar_ros /home/anirudh/test_lidar/build/rplidar_ros /home/anirudh/test_lidar/build/rplidar_ros/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/proton/ros2_ws/build/rplidar_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/proton/ros2_ws/src/rplidar_ros /home/proton/ros2_ws/src/rplidar_ros /home/proton/ros2_ws/build/rplidar_ros /home/proton/ros2_ws/build/rplidar_ros /home/proton/ros2_ws/build/rplidar_ros/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

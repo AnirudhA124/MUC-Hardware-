@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "rplidar_ros")
-set(rplidar_ros_VERSION "2.0.2")
-set(rplidar_ros_MAINTAINER "Hunter L. Allen <hunterlallen@protonmail.com>")
+set(rplidar_ros_VERSION "2.1.4")
+set(rplidar_ros_MAINTAINER "Wang DeYou <deyou.wang@slamtec.com>")
 set(rplidar_ros_BUILD_DEPENDS "rclcpp" "sensor_msgs" "std_srvs" "rclcpp_components")
 set(rplidar_ros_BUILDTOOL_DEPENDS "ament_cmake_auto" "ament_cmake_ros")
 set(rplidar_ros_BUILD_EXPORT_DEPENDS )

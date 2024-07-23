@@ -54,17 +54,18 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anirudh/test_lidar/src/rplidar_ros2
+CMAKE_SOURCE_DIR = /home/proton/ros2_ws/src/rplidar_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anirudh/test_lidar/build/rplidar_ros
+CMAKE_BINARY_DIR = /home/proton/ros2_ws/build/rplidar_ros
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/rplidar_composition_node.dir/all
+all: CMakeFiles/rplidar_node.dir/all
 all: CMakeFiles/rplidar_composition.dir/all
+all: CMakeFiles/rplidar_client.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,8 +75,9 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/rplidar_ros_uninstall.dir/clean
-clean: CMakeFiles/rplidar_composition_node.dir/clean
+clean: CMakeFiles/rplidar_node.dir/clean
 clean: CMakeFiles/rplidar_composition.dir/clean
+clean: CMakeFiles/rplidar_client.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -85,14 +87,14 @@ clean: CMakeFiles/rplidar_composition.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/rplidar_ros_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anirudh/test_lidar/build/rplidar_ros/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/proton/ros2_ws/build/rplidar_ros/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anirudh/test_lidar/build/rplidar_ros/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/proton/ros2_ws/build/rplidar_ros/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anirudh/test_lidar/build/rplidar_ros/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/proton/ros2_ws/build/rplidar_ros/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -111,14 +113,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/rplidar_ros_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rplidar_ros_uninstall.dir/build.make CMakeFiles/rplidar_ros_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rplidar_ros_uninstall.dir/build.make CMakeFiles/rplidar_ros_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anirudh/test_lidar/build/rplidar_ros/CMakeFiles --progress-num= "Built target rplidar_ros_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/proton/ros2_ws/build/rplidar_ros/CMakeFiles --progress-num= "Built target rplidar_ros_uninstall"
 .PHONY : CMakeFiles/rplidar_ros_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rplidar_ros_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anirudh/test_lidar/build/rplidar_ros/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/proton/ros2_ws/build/rplidar_ros/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/rplidar_ros_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anirudh/test_lidar/build/rplidar_ros/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/proton/ros2_ws/build/rplidar_ros/CMakeFiles 0
 .PHONY : CMakeFiles/rplidar_ros_uninstall.dir/rule
 
 # Convenience name for target.
@@ -131,46 +133,46 @@ CMakeFiles/rplidar_ros_uninstall.dir/clean:
 .PHONY : CMakeFiles/rplidar_ros_uninstall.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/rplidar_composition_node.dir
+# Target rules for target CMakeFiles/rplidar_node.dir
 
 # All Build rule for target.
-CMakeFiles/rplidar_composition_node.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rplidar_composition_node.dir/build.make CMakeFiles/rplidar_composition_node.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rplidar_composition_node.dir/build.make CMakeFiles/rplidar_composition_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anirudh/test_lidar/build/rplidar_ros/CMakeFiles --progress-num=3,4,5,6,7,8,9 "Built target rplidar_composition_node"
-.PHONY : CMakeFiles/rplidar_composition_node.dir/all
+CMakeFiles/rplidar_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rplidar_node.dir/build.make CMakeFiles/rplidar_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rplidar_node.dir/build.make CMakeFiles/rplidar_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/proton/ros2_ws/build/rplidar_ros/CMakeFiles --progress-num=21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38 "Built target rplidar_node"
+.PHONY : CMakeFiles/rplidar_node.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/rplidar_composition_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anirudh/test_lidar/build/rplidar_ros/CMakeFiles 7
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/rplidar_composition_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anirudh/test_lidar/build/rplidar_ros/CMakeFiles 0
-.PHONY : CMakeFiles/rplidar_composition_node.dir/rule
+CMakeFiles/rplidar_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/proton/ros2_ws/build/rplidar_ros/CMakeFiles 18
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/rplidar_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/proton/ros2_ws/build/rplidar_ros/CMakeFiles 0
+.PHONY : CMakeFiles/rplidar_node.dir/rule
 
 # Convenience name for target.
-rplidar_composition_node: CMakeFiles/rplidar_composition_node.dir/rule
-.PHONY : rplidar_composition_node
+rplidar_node: CMakeFiles/rplidar_node.dir/rule
+.PHONY : rplidar_node
 
 # clean rule for target.
-CMakeFiles/rplidar_composition_node.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rplidar_composition_node.dir/build.make CMakeFiles/rplidar_composition_node.dir/clean
-.PHONY : CMakeFiles/rplidar_composition_node.dir/clean
+CMakeFiles/rplidar_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rplidar_node.dir/build.make CMakeFiles/rplidar_node.dir/clean
+.PHONY : CMakeFiles/rplidar_node.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/rplidar_composition.dir
 
 # All Build rule for target.
-CMakeFiles/rplidar_composition.dir/all: CMakeFiles/rplidar_composition_node.dir/all
+CMakeFiles/rplidar_composition.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rplidar_composition.dir/build.make CMakeFiles/rplidar_composition.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rplidar_composition.dir/build.make CMakeFiles/rplidar_composition.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anirudh/test_lidar/build/rplidar_ros/CMakeFiles --progress-num=1,2 "Built target rplidar_composition"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/proton/ros2_ws/build/rplidar_ros/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target rplidar_composition"
 .PHONY : CMakeFiles/rplidar_composition.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rplidar_composition.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anirudh/test_lidar/build/rplidar_ros/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/proton/ros2_ws/build/rplidar_ros/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/rplidar_composition.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anirudh/test_lidar/build/rplidar_ros/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/proton/ros2_ws/build/rplidar_ros/CMakeFiles 0
 .PHONY : CMakeFiles/rplidar_composition.dir/rule
 
 # Convenience name for target.
@@ -181,6 +183,32 @@ rplidar_composition: CMakeFiles/rplidar_composition.dir/rule
 CMakeFiles/rplidar_composition.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rplidar_composition.dir/build.make CMakeFiles/rplidar_composition.dir/clean
 .PHONY : CMakeFiles/rplidar_composition.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/rplidar_client.dir
+
+# All Build rule for target.
+CMakeFiles/rplidar_client.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rplidar_client.dir/build.make CMakeFiles/rplidar_client.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rplidar_client.dir/build.make CMakeFiles/rplidar_client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/proton/ros2_ws/build/rplidar_ros/CMakeFiles --progress-num=1,2 "Built target rplidar_client"
+.PHONY : CMakeFiles/rplidar_client.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/rplidar_client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/proton/ros2_ws/build/rplidar_ros/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/rplidar_client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/proton/ros2_ws/build/rplidar_ros/CMakeFiles 0
+.PHONY : CMakeFiles/rplidar_client.dir/rule
+
+# Convenience name for target.
+rplidar_client: CMakeFiles/rplidar_client.dir/rule
+.PHONY : rplidar_client
+
+# clean rule for target.
+CMakeFiles/rplidar_client.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rplidar_client.dir/build.make CMakeFiles/rplidar_client.dir/clean
+.PHONY : CMakeFiles/rplidar_client.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

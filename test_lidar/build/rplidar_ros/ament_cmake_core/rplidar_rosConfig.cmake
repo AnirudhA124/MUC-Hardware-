@@ -16,7 +16,7 @@ set(_rplidar_ros_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT rplidar_ros_FIND_QUIETLY)
-  message(STATUS "Found rplidar_ros: 2.0.2 (${rplidar_ros_DIR})")
+  message(STATUS "Found rplidar_ros: 2.1.4 (${rplidar_ros_DIR})")
 endif()
 
 # warn when using a deprecated package
