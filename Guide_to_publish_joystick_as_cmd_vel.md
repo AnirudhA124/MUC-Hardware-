@@ -25,9 +25,9 @@ NOTE: 1.Make sure you are pressing the RB on the controller for the values to be
       ros2 topic echo /cmd_vel to check
 
 
-## Running the nodes
+## Running the nodes((in the specific packages directory in the laptop))
 
-      source install/setup.bash (in the specific packages directory in the laptop)
+      source install/setup.bash 
 
 
       ros2 run <package_name> <node_name>
