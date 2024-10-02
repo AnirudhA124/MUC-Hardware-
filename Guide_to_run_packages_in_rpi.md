@@ -1,4 +1,4 @@
-##Going to the root
+## Going to the root
 sudo -i 
 
 ## Sourcing Ros
@@ -11,5 +11,5 @@ colcon build
 ## Sourcing project
 source install/setup.bash
 
-##Running packages
+## Running packages
 ros2 run <package_name> <node_name>
