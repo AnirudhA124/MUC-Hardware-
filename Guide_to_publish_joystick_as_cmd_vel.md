@@ -11,7 +11,7 @@
       ros2 run joy joy_node 
 
 
-Note: ros2 topic echo /joy to check the values
+Note: ros2 topic echo /joy
 
 
 ## Converting joy to twist messages.
