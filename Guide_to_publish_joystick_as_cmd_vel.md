@@ -22,7 +22,7 @@ Note: ros2 topic echo /joy
 NOTE: 1.Make sure you are pressing the RB on the controller for the values to be registered and updated.
 
 
-      ros2 topic echo /cmd_vel to check
+      ros2 topic echo /cmd_vel
 
 
 ## Running the nodes((in the specific packages directory in the laptop))
