@@ -12,8 +12,10 @@
 ros2 run joy joy_node 
 ```
 
-Note: ros2 topic echo /joy
-
+Note: To check if joystick is publishing values
+```
+ros2 topic echo /joy
+```
 
 ## Converting joy to twist messages.
 
