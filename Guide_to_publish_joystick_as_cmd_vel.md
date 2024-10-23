@@ -8,28 +8,28 @@
 ## Running the joy node to get inputs
 
 
-      ros2 run joy joy_node 
-
+```
+ros2 run joy joy_node 
+```
 
 Note: ros2 topic echo /joy
 
 
 ## Converting joy to twist messages.
 
-      ros2 launch teleop_twist_joy teleop-launch.py joy_config:='xbox'  
-
+```
+ros2 launch teleop_twist_joy teleop-launch.py joy_config:='xbox'  
+```
 
 NOTE: 1.Make sure you are pressing the RB on the controller for the values to be registered and updated.
 
-
-      ros2 topic echo /cmd_vel
-
+```
+ros2 topic echo /cmd_vel
+```
 
 ## Running the nodes((in the specific packages directory in the laptop))
-
-      source install/setup.bash 
-
-
-      ros2 run <package_name> <node_name>
-
+```
+source install/setup.bash 
+ros2 run <package_name> <node_name>
+```
 
