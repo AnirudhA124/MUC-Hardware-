@@ -3,7 +3,7 @@
 This is the repository of MUC-Hardware<br>
 
 Specifications of Software for it to run:<br>
-<li>
-<ul> Ubuntu 20.04 (On both Raspberry Pi and Laptop)<ul/>
-<ul>Both Rpi and Laptop needs to be on the same network <ul/>
-<ul>Cytron M210 Motor driver<ul/> <li/>
+<ul>
+<li> Ubuntu 20.04 (On both Raspberry Pi and Laptop)<li/>
+<li>Both Rpi and Laptop needs to be on the same network <li/>
+<li>Cytron M210 Motor driver<li/> <ul/>
