@@ -1,8 +1,8 @@
 ## Going to the root
-    sudo -i 
+```sudo -i
 
 ## Sourcing Ros
-    source /home/muc/opt/ros/humble/setup.bash 
+    source /opt/ros/humble/setup.bash 
 
 ## Building package
     cd /home/muc/MUC
