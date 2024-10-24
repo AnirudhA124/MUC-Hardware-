@@ -34,10 +34,10 @@ class MotorController:
 class MotorControlNode(Node):
     def __init__(self):
         super().__init__('motor_control_node')
-        self.motor1 = MotorController(pwm_pin=26, in_pin=19)
-        self.motor2 = MotorController(pwm_pin=3, in_pin=4)
-        self.motor3 = MotorController(pwm_pin=11, in_pin=9)
-        self.motor4 = MotorController(pwm_pin=17, in_pin=27)
+        self.motor1 = MotorController(pwm_pin=25, in_pin=8)
+        self.motor2 = MotorController(pwm_pin=13, in_pin=6)
+        self.motor3 = MotorController(pwm_pin=23, in_pin=24)
+        self.motor4 = MotorController(pwm_pin=5, in_pin=0)
         
         self.subscription1 = self.create_subscription(
             Int32,
