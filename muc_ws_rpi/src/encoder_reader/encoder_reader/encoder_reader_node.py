@@ -8,8 +8,8 @@ outcome = [0, -1, 1, 0, -1, 0, 0, 1, 1, 0, 0, -1, 0, -1, 1, 0]
 # Define GPIO pins for encoders
 Encoder1_output_A = 16
 Encoder1_output_B = 20
-Encoder2_output_A = 13
-Encoder2_output_B = 19
+Encoder2_output_A = 19
+Encoder2_output_B = 26
 Encoder3_output_A = 1
 Encoder3_output_B = 12
 Encoder4_output_A = 2
